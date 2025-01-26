@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethereal Canvas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('images/background.jpg') no-repeat center center;
+      background-size: cover;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background: #333;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      color: #6c63ff;
+    }
+    
+    .gallery {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      padding: 20px;
+    }
+    .card {
+      background: #333;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color : #af1937
+    }
+    .card-content p {
+      font-size: 0.9rem;
+      color: #75e90a;
+      margin-bottom: 15px;
+    }
+    .card-content button {
+      background: #6c63ff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 1rem;
+    }
+    .card-content button:hover {
+      background: #5548c8;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #444;
+    }
+    footer a {
+      color: #6c63ff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      color: #5548c8;
+    }
+    footer p {
+  color: #fffffff5; /* Changes the footer text color to a reddish color */
+}
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="team.html">Meat The Team</a>
+    <a href = "contact.html">Contact Us</a>
+  </nav>
+
+  <header>
+    <h1>Ethereal Canvas</h1>
+    <p>Where Art Meets the Infinite</p>
+  </header>
+
+  <div class="gallery">
+    <div class="card">
+      <img src="images/art1.jpg" alt="Abstract Art 1">
+      <div class="card-content">
+        <h2>Inferno's Symphony</h2>
+        <p>The hidden meaning behind this is yet to be discovered.</p>
+        <button>View Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/art2.jpg" alt="Abstract Art 2">
+      <div class="card-content">
+        <h2>Streaks</h2>
+        <p>A mess of colors,just like life.</p>
+        <button>View Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/art3.jpg" alt="Abstract Art 3">
+      <div class="card-content">
+        <h2>Ethereal Waves</h2>
+        <p>The streaks of color on this piece bring serenity...</p>
+        <button>View Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/art4.jpg" alt="Abstract Art 4">
+      <div class="card-content">
+        <h2>Splatter</h2>
+        <p>This vibrant mixture of colors brings joy to life </p>
+        <button>View Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/art5.jpg" alt="Abstract Art 5">
+      <div class="card-content">
+        <h2>Dimensions</h2>
+        <p>This is an absolute demonstration of geometry.</p>
+        <button>View Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/art6.jpg" alt="Abstract Art 6">
+      <div class="card-content">
+        <h2>Stellar Cascade</h2>
+        <p>This piece of art demonstrates the beauty of rain.</p>
+        <button>View Details</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; <b>2025 Ethereal Canvas. All rights reserved.</b></p>
+    <div>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="mailto:your-email@gmail.com?subject=Inquiry&body=Hello, I would like to know more about your services.">Contact Us</a>
+    </div>
+  </footer>
+</body>
+</html>

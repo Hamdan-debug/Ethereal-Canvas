@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethereal Canvas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('images/background.jpg') no-repeat center center;
+      background-size: cover;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background: #333;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      color: #6c63ff;
+    }
+    .container {
+      padding: 20px;
+    }
+    .gallery {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      padding: 20px;
+    }
+    .card {
+      background: #333;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .card-content p {
+      font-size: 0.9rem;
+      color: #bbb;
+      margin-bottom: 15px;
+    }
+    .card-content button {
+      background: #6c63ff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 1rem;
+    }
+    .card-content button:hover {
+      background: #5548c8;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #444;
+    }
+    footer a {
+      color: #6c63ff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      color: #5548c8;
+    }
+  
+    footer p {
+  color: #fffffff5; /* Changes the footer text color to a reddish color */
+}
+    .about {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+    .about h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .about p {
+      font-size: 1.1rem;
+      color: #ccc;
+      line-height: 1.8;
+    }
+    
+    
+    .inspiration {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;}
+    .inspiration h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .inspiration p {
+      font-size: 1.1rem;
+      color: #ccc;
+      line-height: 1.8;
+    }
+
+    .why  {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;}
+    .why h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .why ol {
+      font-size: 1.1rem;
+      color: #ccc;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="team.html">Meet The Team</a>
+    <a href = "contact.html">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <header>
+      <h1>Ethereal Canvas</h1>
+      <p>Where Art Meets the Infinite</p>
+    </header>
+
+    <div class="about">
+      <h2>Welcome to Ethereal Canvas</h2>
+      <p>
+        Me,Hamdan, along with my brother, have decided to start a abstract art company.Well,more or less of a company.It is actually an expirement.We want to make one art,auction it off on Ebay and then see if we get a profit.If we get a profit,then we continue,else we stop.
+      </p>
+    </div>
+    <div class = "inspiration">
+        <h2>Our Inspiration</h2>
+        <p>We got inspired by the need of money💵💵.Well,My brother actually saw a Youtube Short and got inspired so....</p>
+    </div>
+
+    <div class = "why">
+        <h2>Why Choose Ethereal Canvas</h2>
+        <ol type = "I">
+          <li>Beautiful Art: We make aesthetic and eyes appealing art.You can check it out in the Gallery.</li>
+          <li>Quality:We,here at Ethereal Canvas,have artists that are experts.</li>
+          <li>Originality:All our art is original and built with tenderness and love.</li>
+        </ol>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; <b>2025 Ethereal Canvas. All rights reserved.</b></p>
+    <div>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="mailto:your-email@gmail.com?subject=Inquiry&body=Hello, I would like to know more about your services.">Contact Us</a>
+    </div>
+  </footer>
+</body>
+</html>

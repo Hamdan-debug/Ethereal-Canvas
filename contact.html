@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Ethereal Canvas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #1a1a1a, #000);
+      color: white;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: #333;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }    nav {
+      display: flex;
+      justify-content: center;
+    gap: 20px;
+      padding: 20px;
+      background: #333;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      color: #6c63ff;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    input, textarea {
+      background: #444;
+      color: white;
+    }
+    button {
+      background: #6c63ff;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #5548c8;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+    }
+    footer a {
+      color: #6c63ff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: #5548c8;
+    }
+  </style>
+</head>
+<body>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="team.html">Meet The Team</a>
+          <a href = "contact.html">Contact Us</a>
+        </nav>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form action="https://formspree.io/f/mvgzzalz" method="POST">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Tell us what you're looking for..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ethereal Canvas. All rights reserved. <a href="index.html">Back to Home</a></p>
+  </footer>
+</body>
+</html>
